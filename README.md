@@ -1,4 +1,4 @@
-# Advanced Arcade Snake Game
+# Arcade Snake Game
 
 A modernized, retro-inspired take on the classic arcade Snake game. Built entirely using vanilla web technologies, this version introduces progressive gameplay difficulty, persistent data tracking, dynamic visual styling, and immersive audio management.
 
@@ -40,3 +40,19 @@ A modernized, retro-inspired take on the classic arcade Snake game. Built entire
     ├── bg-music.mp3    # Background loop track
     ├── eat.mp3         # Food collision sound effect
     └── gameover.mp3    # Game over state sound effect
+```
+
+---
+
+## 🏎️ Getting Started
+
+* Clone or create your repository.
+* Add Audio Files: Ensure you place your chosen royalty-free audio tracks inside the audio/ folder named exactly as shown in the directory tree above.
+* Launch the Game: Simply double-click index.html to launch and play directly inside any modern web browser—no servers or package installations required!
+
+---
+
+## 🕹️ Controls
+
+* **Arrow Keys:** Change Snake Direction
+* **Spacebar:** Start Game / Pause / Resume
