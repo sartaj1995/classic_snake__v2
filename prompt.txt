@@ -1,0 +1,11 @@
+PROJECT GOAL
+Create a polished arcade version Snake game using vanilla HTML5/CSS/JavaScript.
+
+CORE FEATURES REQUIRED
+1. Local Leaderboard: Track and save the top 5 scores directly on the user's device using the browser's localStorage API. Prompt for player names on high scores.
+2. Immersive Audio Engine: Quietly loop an 8-bit retro/synth background track. Add interactive sound effects for eating food and triggers for game-over sequences.
+3. Audio State Management: A physical UI button to toggle the mute/unmute state. Remember the player's choice across separate sessions using localStorage.
+4. Game Loop Modifiers (Speed Ramp): Replace fixed intervals with a dynamic loop that accelerates (decreases loop delay) every time the snake eats 5 pieces of food.
+5. Special Spawns (Golden Apples): Introduce a rare food item with a 15% spawn chance that flashes a distinct color, grants triple score points (+30), and automatically self-destructs/expires if not eaten within 5 seconds.
+6. Multi-Theme Visual Design: Build modular theme profiles swap-able on the fly via a dropdown selector (Classic Green, Cyberpunk Neon, and monochrome GameBoy Retro).
+7. Complete Loop Controls: Prevent the game from starting instantly on page load. Implement a "Start Game" button overlay and code a pause toggle mapped to the [Spacebar] that suspends both execution frames and running audio tracks.
