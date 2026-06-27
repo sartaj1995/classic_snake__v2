@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Advanced Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-classic">
+
+    <div class="game-container">
+        <div class="main-panel">
+            <h1>Snake Game</h1>
+            <div id="score-board">
+                Score: <span id="score">0</span> | High Score: <span id="high-score-display">0</span>
+            </div>
+            
+            <button id="start-btn" style="margin-bottom: 10px; width: auto; padding: 10px 20px;">Start Game</button>
+            
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+        </div>
+
+        <div class="side-panel">
+            <div class="control-section">
+                <h3>Controls</h3>
+                <p style="font-size: 12px; margin: 0 0 10px 0; opacity: 0.8;">[Spacebar] to Pause/Resume</p>
+                <button id="mute-btn">Mute Music</button>
+                
+                <label for="theme-select">Theme:</label>
+                <select id="theme-select">
+                    <option value="theme-classic">Classic Green</option>
+                    <option value="theme-cyberpunk">Cyberpunk Neon</option>
+                    <option value="theme-gameboy">GameBoy Retro</option>
+                </select>
+            </div>
+
+            <div class="leaderboard-section">
+                <h3>Local Leaderboard</h3>
+                <ol id="leaderboard-list">
+                    </ol>
+            </div>
+        </div>
+    </div>
+
+    <audio id="bg-music" loop src="audio/bg-music.mp3"></audio>
+    <audio id="eat-sfx" src="audio/eat.mp3"></audio>
+    <audio id="gameover-sfx" src="audio/gameover.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

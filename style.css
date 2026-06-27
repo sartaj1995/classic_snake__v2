@@ -1,0 +1,107 @@
+/* Theme Variables */
+.theme-classic {
+    --bg-color: #1a1a1a;
+    --panel-bg: #2a2a2a;
+    --canvas-bg: #111;
+    --text-color: #fff;
+    --border-color: #444;
+}
+
+.theme-cyberpunk {
+    --bg-color: #0d0116;
+    --panel-bg: #1b052e;
+    --canvas-bg: #05000a;
+    --text-color: #00ffcc;
+    --border-color: #ff007f;
+}
+
+.theme-gameboy {
+    --bg-color: #8b956d;
+    --panel-bg: #9bbc0f;
+    --canvas-bg: #0f380f;
+    --text-color: #0f380f;
+    --border-color: #306230;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+.game-container {
+    display: flex;
+    gap: 30px;
+    background-color: var(--panel-bg);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.main-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#score-board {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+canvas {
+    border: 4px solid var(--border-color);
+    background-color: var(--canvas-bg);
+}
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    gap: 20px;
+}
+
+.control-section, .leaderboard-section {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+button, select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    background-color: var(--border-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+ol {
+    padding-left: 20px;
+    margin: 5px 0;
+}
+
+li {
+    margin-bottom: 5px;
+    font-family: monospace;
+    font-size: 15px;
+}
