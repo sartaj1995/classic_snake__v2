@@ -44,6 +44,7 @@ https://sartaj1995.github.io/classic_snake__v2/
 ├── style.css           # Grid layouts, responsive panels, and theme variables
 ├── script.js           # Core game engine loop, state flags, and mechanics
 ├── prompt.txt          # The context logs and engineering prompts used to shape the game
+├── .gitignore          # Tells Git which system files to ignore
 └── 📁 audio/           # Media assets folder
     ├── bg-music.mp3    # Background loop track
     ├── eat.mp3         # Food collision sound effect
