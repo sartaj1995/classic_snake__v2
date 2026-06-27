@@ -1,4 +1,4 @@
-# Arcade Snake Game
+# Arcade Snake Game (Vibe-Coded)
 
 A modernized, retro-inspired take on the classic arcade Snake game. Built entirely using vanilla web technologies, this version introduces progressive gameplay difficulty, persistent data tracking, dynamic visual styling, and immersive audio management.
 
@@ -43,6 +43,7 @@ https://sartaj1995.github.io/classic_snake__v2/
 ├── index.html          # Main application structure & audio DOM elements
 ├── style.css           # Grid layouts, responsive panels, and theme variables
 ├── script.js           # Core game engine loop, state flags, and mechanics
+├── prompt.txt          # The context logs and engineering prompts used to shape the game
 └── 📁 audio/           # Media assets folder
     ├── bg-music.mp3    # Background loop track
     ├── eat.mp3         # Food collision sound effect
