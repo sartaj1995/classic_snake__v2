@@ -3,7 +3,7 @@
 A modernized, retro-inspired take on the classic arcade Snake game. Built entirely using vanilla web technologies, this version introduces progressive gameplay difficulty, persistent data tracking, dynamic visual styling, and immersive audio management.
 
 ## 🚀 Live Demo
-*(Tip: Once you deploy this via GitHub Pages, paste your live link here!)*
+https://sartaj1995.github.io/classic_snake__v2/
 
 ---
 
