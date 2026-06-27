@@ -7,6 +7,13 @@ https://sartaj1995.github.io/classic_snake__v2/
 
 ---
 
+## 🕹️ Controls
+
+* **Arrow Keys:** Change Snake Direction
+* **Spacebar:** Start Game / Pause / Resume
+
+---
+
 ## ✨ Features
 
 * **Dynamic Speed Ramp:** The game tracks your skill. Every time the snake eats 5 standard pieces of food, the game loop automatically accelerates, ramping up the tension.
@@ -49,10 +56,3 @@ https://sartaj1995.github.io/classic_snake__v2/
 * Clone or create your repository.
 * Add Audio Files: Ensure you place your chosen royalty-free audio tracks inside the audio/ folder named exactly as shown in the directory tree above.
 * Launch the Game: Simply double-click index.html to launch and play directly inside any modern web browser—no servers or package installations required!
-
----
-
-## 🕹️ Controls
-
-* **Arrow Keys:** Change Snake Direction
-* **Spacebar:** Start Game / Pause / Resume
